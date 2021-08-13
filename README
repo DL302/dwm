@@ -55,7 +55,7 @@ save floats
 pertag
 movestack
 alwaysontop
-winicon [requires imlib2i/libimlib2-dev]
+winicon [requires imlib2/libimlib2-dev]
 attachbottom
 alwayscenter
 resizecorners
