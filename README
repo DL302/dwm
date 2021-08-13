@@ -6,7 +6,7 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
-For this specific configuration you will also need rofi and ttf-hack
+
 
 Installation
 ------------
@@ -48,10 +48,14 @@ The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 
 Patches
--------
+_______
 The patches used were:
-save floats    [https://dwm.suckless.org/patches/save_floats/]
-pertag         [https://dwm.suckless.org/patches/pertag/]
-attachbottom   [https://dwm.suckless.org/patches/attachbottom/]
-alwayscenter   [https://dwm.suckless.org/patches/alwayscenter/]
-resizecorners  [https://dwm.suckless.org/patches/resizecorners/]
+stackmfact
+save floats
+pertag
+movestack
+alwaysontop
+winicon [requires imlib2/libimlib2-dev]
+attachbottom
+alwayscenter
+resizecorners
